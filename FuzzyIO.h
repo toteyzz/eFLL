@@ -31,7 +31,7 @@ class FuzzyIO {
 		~FuzzyIO();
 		// MÉTODOS PÚBLICOS
 		int getIndex();
-		void setCrispInput(float crispInput);
+		void setCrispInput(int crispInput);
 		float getCrispInput();
 		bool addFuzzySet(FuzzySet* fuzzySet);
 		void resetFuzzySets();
