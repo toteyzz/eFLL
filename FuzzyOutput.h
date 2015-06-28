@@ -25,7 +25,7 @@ class FuzzyOutput : public FuzzyIO {
 		~FuzzyOutput();
 		// MÉTODOS PÚBLICOS
 		bool truncate();
-		float getCrispOutput();
+		int getCrispOutput();
 		bool order();
 
 	private:
