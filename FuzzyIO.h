@@ -32,14 +32,14 @@ class FuzzyIO {
 		// MÉTODOS PÚBLICOS
 		int getIndex();
 		void setCrispInput(int crispInput);
-		float getCrispInput();
+		int getCrispInput();
 		bool addFuzzySet(FuzzySet* fuzzySet);
 		void resetFuzzySets();
 
 	protected:
 		// VARIÁVEIS PROTEGIDAS
 		int index;
-		float crispInput;
+		int crispInput;
 		fuzzySetArray* fuzzySets;
 		fuzzySetArray* fuzzySetsCursor;
 		// MÉTODOS PROTEGIDOS
